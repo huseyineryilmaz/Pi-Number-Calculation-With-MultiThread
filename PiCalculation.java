@@ -40,7 +40,7 @@ public class PiCalculation {
         long time = System.currentTimeMillis() - start;
         
          
-        System.out.println("Pi: " + result);
+        System.out.println("Result: " + result);
         System.out.println("Completed in : " + time + "ms");
         System.out.println("Approximation error is: " + Math.abs(realPiNumber-4*master.parallelSum(taylorSerie)));
         
