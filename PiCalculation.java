@@ -25,7 +25,7 @@ public class PiCalculation {
         }
         
         
-        //Generate Taylor Serie
+        //Generate Taylor Series
         taylorSerie = new double[operationNumber];
         for (int i = 0; i < taylorSerie.length; i++) {
             taylorSerie[i] = Math.pow(-1, i)/(2*i +1); 
